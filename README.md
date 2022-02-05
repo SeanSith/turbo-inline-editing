@@ -1,24 +1,16 @@
-# README
+# Inline Editing with Turbo Frames
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A demo application for playing with inline editing using Turbo Frames based off 
+[GoRails - Inline Editing with Turbo Frames](https://gorails.com/episodes/inline-editing-turbo-frames).
 
-Things you may want to cover:
+Git history may help understand what changes are necessary, but everything's basically on the last, very small commit.
 
-* Ruby version
+## Setup
+1. Clone project
+1. `asdf install`
+1. `bundle install`
+1. `bundle exec rails db:create db:migrate`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Running the project
+1. `foreman start -f Procfile.dev`
+2. http://localhost:3000/people
